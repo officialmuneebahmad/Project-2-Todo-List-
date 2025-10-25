@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     bullet.className = 'mr-2 text-gray-600';
 
     const span = document.createElement('span');
+    span.className = 'px-2';
     span.textContent = itemText;
     
     const deleteBtn = document.createElement('button');
